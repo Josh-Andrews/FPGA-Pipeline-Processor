@@ -1,0 +1,15 @@
+ ori  $2, $0, 0x3F
+ ori  $1, $0, 0xFF
+ andi $2, $2, 0x14
+ ori  $2, $2, 0x15
+ slti $2, $2, 0x14
+ slti $2, $2, 0xFFF
+ addi $2, $2, 0x14
+ ori  $1, $0, 0xFF
+ ori  $1, $0, 0xFF
+ addiu $2,$2, 0x14
+ lui $2, 0xEE
+ nop
+ nop
+ nop
+ nop
